@@ -11,7 +11,7 @@ import TicTacToe from './components/TicTacToe';
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename="/Portfolio">
         <div className="relative">
           <Header />
           <main className="pt-16">

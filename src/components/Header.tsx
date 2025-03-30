@@ -62,7 +62,7 @@ const Header = () => {
               </button>
             ))}
             <Link
-              to="/game"
+              to="/Portfolio/game"
               className={`capitalize transition-colors ${
                 isScrolled
                   ? isDarkMode
